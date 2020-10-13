@@ -29,6 +29,5 @@ logger.warning('Message with level: warning')
 logger.error('Message with level: error') 
 logger.critical('Message with level: critical')
 
-# initialize a logger with level debug and format like [time]: loggername loggerlevel message
 
 
