@@ -1,3 +1,6 @@
+"""
+Code to add two numbers
+"""
 def add_two_numbers(first_number, second_number):
     """
     Params:
@@ -10,4 +13,5 @@ def add_two_numbers(first_number, second_number):
     return result
 
 if __name__ == "__main__":
-    result = add_two_numbers(3, 4)
+    result_sum = add_two_numbers(3, 4)
+    
