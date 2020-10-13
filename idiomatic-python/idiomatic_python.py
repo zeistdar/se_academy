@@ -2,6 +2,7 @@
 x = []
 y = False
 z = None
+random = 1
 
 if len(x) == 0:
     print("Empty List: Bad way")
