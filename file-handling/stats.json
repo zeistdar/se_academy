@@ -1,0 +1,32 @@
+{
+  "players": [
+    {
+      "name": "Teemu Pukki",
+      "stats": {
+        "goals": 25,
+        "matches": 80
+      }
+    },
+    {
+      "name": "Lukas Hradecky",
+      "stats": {
+          "goals": 0,
+          "matches": 58
+      }
+    },
+    {
+      "name": "Tim Sparv",
+      "stats": {
+        "goals": 1,
+        "matches": 74
+      }
+    },
+    {
+      "name": "Joona Toivio",
+      "stats": {
+        "goals": 3,
+        "matches": 65
+      }
+    }
+  ]
+}
