@@ -1,0 +1,10 @@
+# We are interested in two variables wind power generation and electricity consumption. Their ids are 75(wind) and 124(consumption). Store these ids in two separate variables with appriorate names. 
+
+# Convert start_time and end_time variable to appropriate format: '2019-05-06T10:15:27Z'. Google it. (!!HINT: start_time and end_time are datetime objects and you have to convert it into a formatted string)
+
+# After the dates are formatted you have to pass the variables defined in the first step separately as an argument to get_data_from_api(variable) and change the request in the fingrid_url variable to be able to include that variable in the request. (!!NOTE: You have to do two separate requests because you need the data for both wind power generation and electricity consumption, so think on how you will do that)
+
+# Load result from the get_data_from_api function into the pandas dataframe. The function converting into json is your_variable.json() which is already done and the function to load json into the dataframe is pandas.DataFrame(your_json_variable).(!!NOTE: There should be two dataframes one for each endpoint)
+
+# Create local DB SQLite connection using sqlite3. The database is included in the folder your initial code is in.(Search on google how to create a connection to the database). Put that in a function name create_connection that takes the full filepath as an argument and returns the conn if it succeeds.
+
